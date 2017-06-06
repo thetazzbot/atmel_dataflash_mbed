@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<EmbeddedProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ToolchainID>com.visualgdb.arm-eabi</ToolchainID>
+  <BspID>com.sysprogs.arm.mbed</BspID>
+  <BspVersion>5.4.2R2</BspVersion>
+  <McuID>NUCLEO_F411RE</McuID>
+  <MCUDefinitionFile>DeviceDefinitions/stm32f411xe.xml</MCUDefinitionFile>
+  <MCUProperties>
+    <Entries>
+      <KeyValue>
+        <Key>com.sysprogs.mbed.platform.stdio-baud-rate</Key>
+        <Value>115200</Value>
+      </KeyValue>
+      <KeyValue>
+        <Key>com.sysprogs.mbed.platform.default-serial-baud-rate</Key>
+        <Value>115200</Value>
+      </KeyValue>
+      <KeyValue>
+        <Key>com.sysprogs.mbed.platform.stdio-flush-at-exit</Key>
+        <Value>1</Value>
+      </KeyValue>
+      <KeyValue>
+        <Key>com.sysprogs.mbed.platform.stdio-convert-newlines</Key>
+        <Value>0</Value>
+      </KeyValue>
+      <KeyValue>
+        <Key>com.sysprogs.mbed.floatmode</Key>
+        <Value>-mfloat-abi=softfp</Value>
+      </KeyValue>
+      <KeyValue>
+        <Key>com.sysprogs.toolchainoptions.arm.libctype</Key>
+        <Value>--specs=nano.specs</Value>
+      </KeyValue>
+      <KeyValue>
+        <Key>com.sysprogs.toolchainoptions.arm.libnosys</Key>
+        <Value />
+      </KeyValue>
+    </Entries>
+  </MCUProperties>
+  <BSPSourceFolderName>mbed Files</BSPSourceFolderName>
+  <MCUMakFile>mbed.mak</MCUMakFile>
+  <ReferencedFrameworks />
+  <FrameworkProperties>
+    <Entries />
+  </FrameworkProperties>
+  <TestFrameworkProperties>
+    <Entries />
+  </TestFrameworkProperties>
+</EmbeddedProfile>
